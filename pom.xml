@@ -4,8 +4,8 @@
   <artifactId>ace</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>FrainMeng</name>
-  <description>My ace application</description>
+  <name>Ace Application</name>
+  <description>Ace Application</description>
   <url>https://github.com/frainmeng/ace.git</url>
   <modules>
   	<module>ace-dao</module>
@@ -13,4 +13,80 @@
   	<module>ace-web</module>
   	<module>ace-api</module>
   </modules>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-core</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-beans</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-context</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-context-support</artifactId>
+  			<version>4.0.2.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-expression</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-aop</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-test</artifactId>
+  			<version>4.0.2.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-jdbc</artifactId>
+  			<version>4.0.2.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-web</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-webmvc</artifactId>
+  			<version>4.1.1.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.springframework</groupId>
+  			<artifactId>spring-tx</artifactId>
+  			<version>4.0.2.RELEASE</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.mybatis</groupId>
+  			<artifactId>mybatis-spring</artifactId>
+  			<version>1.0.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.mybatis</groupId>
+  			<artifactId>mybatis</artifactId>
+  			<version>3.2.2</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.json4s</groupId>
+  		<artifactId>json4s-jackson_2.10</artifactId>
+  		<version>3.2.9</version>
+  	</dependency>
+  </dependencies>
 </project>
